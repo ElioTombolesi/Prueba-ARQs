@@ -1,0 +1,8 @@
+version: "3"
+services:
+  react-app:
+    build:
+      context: ./AUSTRAL-PROYECTO-2023
+      dockerfile: Dockerfile
+    ports:
+      - 3000:80
